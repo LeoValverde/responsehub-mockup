@@ -47,6 +47,18 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+
+```bash
+# Install dependencies (first time only)
+npm install
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+This will build the app and deploy it to: https://practiv.github.io/responsehub-mockup
+
 ## Demo Navigation
 
 The demo uses simple React state management to navigate between screens. Each button is wired up to move to the next screen:
