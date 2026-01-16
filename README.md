@@ -47,17 +47,16 @@ npm run build
 npm run preview
 ```
 
-## Deploy to GitHub Pages
+## Deploy to Vercel
 
-```bash
-# Install dependencies (first time only)
-npm install
+This project is configured for easy deployment to Vercel:
 
-# Deploy to GitHub Pages
-npm run deploy
-```
+1. Push your code to GitHub
+2. Go to https://vercel.com/new
+3. Import your GitHub repository
+4. Click "Deploy"
 
-This will build the app and deploy it to: https://practiv.github.io/responsehub-mockup
+Your live URL will be: `responsehub-mockup.vercel.app` (or custom domain)
 
 ## Demo Navigation
 
