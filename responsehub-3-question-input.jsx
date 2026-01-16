@@ -119,7 +119,7 @@ const Sidebar = ({ collapsed, setCollapsed, activeItem, setActiveItem }) => {
   return (
     <aside
       style={{
-        width: collapsed ? '72px' : '280px',
+        width: collapsed ? '72px' : '295px',
         minHeight: '100vh',
         background: '#ffffff',
         borderRight: '1px solid #e8e8e8',
@@ -353,7 +353,7 @@ const QuestionInputScreen = ({ onGenerate }) => {
       {/* Main content */}
       <main
         style={{
-          marginLeft: sidebarCollapsed ? '72px' : '280px',
+          marginLeft: sidebarCollapsed ? '72px' : '295px',
           transition: 'margin-left 0.25s ease',
           minHeight: '100vh',
         }}
